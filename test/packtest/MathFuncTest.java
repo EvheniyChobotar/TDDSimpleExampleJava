@@ -47,7 +47,12 @@ public class MathFuncTest {
     public void todo() {
         assertTrue(math.plus(1, 1) == 3);
     }
-    
+    /*
+        assertEquals - ожидаемый результат и полученный результат совпадают;
+        assertNull - результатом выражения есть null;
+        assertNotNull - результат выражения отличен от null;
+        assertSame - ожидаемый и полученный объекты это один и тот же объект.
+    */
     public static void main(String[] args) throws Exception {
         JUnitCore runner = new JUnitCore();
         Result result = runner.run(MathFuncTest.class);
